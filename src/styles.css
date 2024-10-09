@@ -398,8 +398,8 @@ body{
     transform: translateX(0%);
 }
 
-.card:hover{
-    filter: drop-shadow(20px 20px 4px #1111119e);
+.aparecer__izquierda:hover{
+    box-shadow: (20px 20px 4px #1111119e);
     scale: 1.1;
 }
 
@@ -431,15 +431,13 @@ body{
 
 @media screen and (max-width: 900px) {
 
-    .card:hover{
-        scale: 1;
-        filter: drop-shadow(0 0 0 #000);
+    .aparecer__izquierda:hover{
+        box-shadow: none;
     }
 
-    .card{
-        filter: drop-shadow(20px 20px 4px #1111119e);
+    .aparecer__izquierda{
+        box-shadow: (20px 20px 4px #1111119e);
     }
-
 
 }
 
