@@ -436,7 +436,7 @@ body{
     }
 
     .card{
-        filter: drop-shadow(20px 20px 4px #1111119e);
+        box-shadow: (20px 20px 4px #1111119e);
     }
 }
 
