@@ -1,5 +1,5 @@
 import './styles.css';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import NewHeader from './componentes/newHeader'
 import Card from './componentes/Card_Portfolio'
 import Contacto from './componentes/Contacto';
