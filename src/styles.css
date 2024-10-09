@@ -399,7 +399,7 @@ body{
 }
 
 .aparecer__izquierda:hover{
-    box-shadow: (20px 20px 4px #1111119e);
+    filter: drop-shadow(20px 20px 4px #1111119e);
     scale: 1.1;
 }
 
@@ -432,11 +432,11 @@ body{
 @media screen and (max-width: 900px) {
 
     .aparecer__izquierda:hover{
-        box-shadow: none;
+        filter: none;
     }
 
     .aparecer__izquierda{
-        box-shadow: (20px 20px 4px #1111119e);
+        filter: drop-shadow(20px 20px 4px #1111119e);
     }
 
 }
@@ -519,15 +519,9 @@ body{
     overflow: hidden;
     background-color: #0000002d;
 
-    view-timeline-name: --aparecer;
-    view-timeline-axis: block;
-
-    animation-timeline: --aparecer;
-    animation-range: entry 15% cover 30%;
-
-    animation-name: aparecer;
-
-    animation-fill-mode: both;
+    opacity: 0.2;
+    scale: 0.1;
+    transition: all 0.6s;
 }
 
 .caja__type{

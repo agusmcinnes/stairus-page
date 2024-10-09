@@ -8,7 +8,8 @@ import AboutMe from './componentes/aboutMe.jsx';
 import './i18n.jsx';
 import { useTranslation} from 'react-i18next';
 import ScrollToTop from './componentes/ScrollToTop.jsx';
-import React from 'react';
+import Cajas from './componentes/Cajas.jsx';
+
 
 import cohete from './imagenes/cohete.webp'
 import firstWave from './imagenes/firstWave.webp'
@@ -16,10 +17,7 @@ import stairusMockUp from './imagenes/mockUpStairus.webp'
 import AbogadosMockUp from './imagenes/mockUpAbogados.webp'
 import RDVMockUp from './imagenes/RDVmockup.webp'
 import lastWave from './imagenes/lastWave.webp'
-import iconCohete from './imagenes/icon_cohete.png'
-import iconEstrellas from './imagenes/icon_estrellas.png'
-import iconEcommerce from './imagenes/icon_ecommerce.png'
-import iconBlog from './imagenes/icon_blog.png'
+
 
 
 
@@ -62,47 +60,7 @@ function App() {
             <h2 className='aboutUs__text-title'>{t('aboutus.title')}</h2>
             <p className='aboutUs__text-explicacion'>{t('aboutus.text')}</p>
         </div>
-        <div className='aboutUs__cajas'>
-            <div className='aboutUs__cajas-container'>
-                <div className='caja'>
-                    <h3 className='caja__type'>Landing-page</h3>
-                    <p className='caja__info'>{t('services.text-1')}</p>
-                    <img src={iconCohete} alt="" />
-                    <span className='border-top'></span>
-                    <span className='border-right'></span>
-                    <span className="border-bottom"></span>
-                    <span className="border-left"></span>
-
-                </div>
-                <div className='caja caja_derecha'>
-                    <h3 className='caja__type'>E-Commerce</h3>
-                    <p className='caja__info'>{t('services.text-2')}</p>
-                    <img src={iconEcommerce} alt="" />
-                    <span className='border-top'></span>
-                    <span className='border-right'></span>
-                    <span className="border-bottom"></span>
-                    <span className="border-left"></span>
-                </div>
-                <div className='caja'>
-                    <h3 className='caja__type'>{t('services.title-3')}</h3>
-                    <p className='caja__info'>{t('services.text-3')}</p>
-                    <img src={iconEstrellas} alt="" />
-                    <span className='border-top'></span>
-                    <span className='border-right'></span>
-                    <span className="border-bottom"></span>
-                    <span className="border-left"></span>
-                </div>
-                <div className='caja caja_derecha'>
-                    <h3 className='caja__type'>Blog</h3>
-                    <p className='caja__info'>{t('services.text-4')}</p>
-                    <img src={iconBlog} alt="" />
-                    <span className='border-top'></span>
-                    <span className='border-right'></span>
-                    <span className="border-bottom"></span>
-                    <span className="border-left"></span>
-                </div>
-            </div>
-        </div>
+        <Cajas></Cajas>
     </section>
     <AboutMe></AboutMe>
     </>
