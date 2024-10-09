@@ -385,7 +385,6 @@ body{
     text-decoration: none;
     border-radius: 7px;
     transition: filter 0.5s, scale 0.5s;
-    
 }
 
 .aparecer__izquierda {
@@ -431,13 +430,17 @@ body{
 }
 
 @media screen and (max-width: 900px) {
+
     .card:hover{
         scale: 1;
+        filter: drop-shadow(0 0 0 #000);
     }
 
     .card{
-        box-shadow: (20px 20px 4px #1111119e);
+        filter: drop-shadow(20px 20px 4px #1111119e);
     }
+
+
 }
 
 /* PORTAFOLIO ENDS */
