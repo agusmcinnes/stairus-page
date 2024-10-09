@@ -9,7 +9,9 @@ const Card = ({ mockUp, cardType, url, link }) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('animacion__izquierda');
-                    observer.unobserve(entry.target); // Dejar de observar una vez que se ha animado
+                }
+                else{
+                    entry.target.classList.remove('animacion__izquierda');
                 }
             });
         }, { threshold: 0.1 }); // Ajusta el threshold según sea necesario

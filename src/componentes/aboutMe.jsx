@@ -20,6 +20,9 @@ const AboutMe = () => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('animacion__skills');
                 }
+                else{
+                    entry.target.classList.remove('animacion__skills');
+                }
             });
         });
     
