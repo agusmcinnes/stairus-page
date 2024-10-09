@@ -1,0 +1,43 @@
+{
+    "header": {
+        "home": "INICIO",
+        "contact": "CONTACTO"
+    },
+
+    "firstPage": {
+        "text-1": "Llevamos tu sitio web a otra galaxia",
+        "button": "TRABAJEMOS JUNTOS"
+    },
+
+    "portfolio": {
+        "title": "PORTAFOLIO"
+    },
+
+    "aboutus": {
+        "title": "¿Que es Stairus?",
+        "text": "En stairus nos dedicamos a la creación de paginas web, todas creadas a base de código sin usar WordPress, con stairus vas a tener asegurado el estilo, creatividad, confianza y los resultados esperados"
+    },
+
+    "services": {
+        "title-3": "Proyecto Personalizado",
+        "text-1": "Diseño y desarrollo de páginas rápidas y efectivas para captar clientes",
+        "text-2": "Desarrollo de tiendas online seguras y escalables para impulsar ventas",
+        "text-3": "Soluciones web a medida, adaptadas a tus necesidades y objetivos específicos",
+        "text-4": "Espacio personalizado para publicar fomentando interacción con tu audiencia"
+    },
+
+    "aboutMe": {
+        "title": "¿Quien esta detras de Stairus?",
+        "text-1": "Programador frontend argentino de 20 años, actualmente cursando mi formación en la Universidad Tecnológica Nacional.",
+        "text-2": "Desde que descubrí la programación, me apasiona la posibilidad de crear soluciones digitales. Dedico todo mi tiempo a perfeccionar mis habilidades y me caracterizo por ser una persona muy eficaz, capaz de adaptarme rápidamente a nuevos desafíos, siempre enfocándome en la calidad y en ofrecer resultados de alto impacto."
+    },
+
+    "contact": {
+        "title": "CONTACTO",
+        "input-1": "Nombre completo",
+        "text-area": "Escriba su mensaje . . .",
+        "send": "ENVIAR",
+        "sending": "Enviando mensaje . . .",
+        "sending-right": "MENSAJE ENVIADO!"
+    }
+}

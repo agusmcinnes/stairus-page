@@ -1,0 +1,45 @@
+{
+    "header": {
+        "home": "HOME",
+        "contact": "CONTACT US"
+    },
+
+    "firstPage": {
+        "text-1": "We take your website to another galaxy",
+        "button": "LET'S WORK TOGETHER"
+    },
+
+    "portfolio": {
+        "title": "PORTFOLIO"
+    },
+
+    "aboutus": {
+        "title": "What is Stairus?",
+        "text": "At Stairus, we specialize in creating websites, all built from scratch without using WordPress. With Stairus, you are guaranteed style, creativity, trust, and the results you expect"
+    },
+
+    "services": {
+        "title-3": "Customized Project",
+        "text-1": "Design and development of fast and effective websites to attract clients",
+        "text-2": "Development of secure and scalable online stores to boost sales",
+        "text-3": "Tailored web solutions, adapted to your specific needs and goals",
+        "text-4": "Personalized space for publishing, encouraging interaction with your audience"
+},
+
+    "aboutMe": {
+        "title": "Who is behind Stairus?",
+        "text-1": "20-year-old frontend developer from Argentina, currently studying at the National Technological University.",
+        "text-2": "Ever since I discovered programming, I’ve been passionate about creating digital solutions. I dedicate all my time to perfecting my skills, and I’m known for being highly efficient, quickly adapting to new challenges, always focused on quality and delivering high-impact results."
+},
+
+    "contact": {
+        "title": "CONTACT",
+        "input-1": "Full Name",
+        "text-area": "Write your message . . .",
+        "send": "SEND",
+        "sending": "Sending message . . .",
+        "sending-right": "MESSAGE SENT!"
+}
+
+
+}
