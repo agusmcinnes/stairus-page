@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stairus-page/static/css/main.bd0ff951.css",
+    "main.css": "/stairus-page/static/css/main.cb3569e0.css",
     "main.js": "/stairus-page/static/js/main.beae091d.js",
     "static/media/mockUpAbogados.webp": "/stairus-page/static/media/mockUpAbogados.5e5c6d4a4c461c304081.webp",
     "static/media/LOGO_STAIRUS.webp": "/stairus-page/static/media/LOGO_STAIRUS.49d59e196533dd3c9da1.webp",
@@ -26,11 +26,11 @@
     "static/media/git.svg": "/stairus-page/static/media/git.aeb3f4d71f395035a416d6e5a7afa54e.svg",
     "static/media/html5.svg": "/stairus-page/static/media/html5.97aa13a61de56202ea97a2169449187f.svg",
     "static/media/css.svg": "/stairus-page/static/media/css.93d0281b823eb4bd4df7e843db0938b5.svg",
-    "main.bd0ff951.css.map": "/stairus-page/static/css/main.bd0ff951.css.map",
+    "main.cb3569e0.css.map": "/stairus-page/static/css/main.cb3569e0.css.map",
     "main.beae091d.js.map": "/stairus-page/static/js/main.beae091d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd0ff951.css",
+    "static/css/main.cb3569e0.css",
     "static/js/main.beae091d.js"
   ]
 }
