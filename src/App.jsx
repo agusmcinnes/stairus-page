@@ -10,7 +10,6 @@ import { useTranslation} from 'react-i18next';
 import ScrollToTop from './componentes/ScrollToTop.jsx';
 import Cajas from './componentes/Cajas.jsx';
 
-
 import cohete from './imagenes/cohete.webp'
 import firstWave from './imagenes/firstWave.webp'
 import stairusMockUp from './imagenes/mockUpStairus.webp'

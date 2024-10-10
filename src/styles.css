@@ -243,7 +243,7 @@ body{
 
 .firstWave{
     position: absolute;
-    bottom: 0%;
+    bottom: -1%;
     width: 100%;
     z-index: 0;
     height: clamp(1rem, 20%, 20rem);
@@ -374,7 +374,7 @@ body{
 .cards__container{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 70px;
 }
 
 .card{
@@ -433,10 +433,11 @@ body{
 
     .aparecer__izquierda:hover{
         filter: none;
+        scale: 1.05;
     }
 
-    .aparecer__izquierda{
-        filter: drop-shadow(20px 20px 4px #1111119e);
+    .card{
+        box-shadow: 10px 10px 4px #323232ac;
     }
 
 }
