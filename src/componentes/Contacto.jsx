@@ -77,13 +77,13 @@ const Contacto = () => {
             <img src={INSTAGRAM} alt="" />
             <span className='red__name'>stairusdev</span>
             </a>
-            <a className='red' href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new' target='blank'>
-            <img src={GMAIL} alt="" />
-            <span className='red__name'>stairusdev@gmail.com</span>
-            </a>
             <a className='red' href='https://github.com/agusmcinnes' target='blank'>
             <img src={GITHUB} alt=""/>
             <span className='red__name'>AgusMcinnes</span>
+            </a>
+            <a className='red' href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new' target='blank'>
+            <img src={GMAIL} alt="" />
+            <span className='red__name'>stairusdev@gmail.com</span>
             </a>
         </div>
         </section>
