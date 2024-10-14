@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/stairus-page/static/css/main.8ef98bf2.css",
-    "main.js": "/stairus-page/static/js/main.5946ef38.js",
-    "static/media/mockUpAbogados.webp": "/stairus-page/static/media/mockUpAbogados.5e5c6d4a4c461c304081.webp",
+    "main.css": "/stairus-page/static/css/main.760ad20e.css",
+    "main.js": "/stairus-page/static/js/main.4e823008.js",
     "static/media/LOGO_STAIRUS.webp": "/stairus-page/static/media/LOGO_STAIRUS.49d59e196533dd3c9da1.webp",
     "static/media/contacto_img.webp": "/stairus-page/static/media/contacto_img.a0232db5b3a259003f54.webp",
     "static/media/mcinnes.webp": "/stairus-page/static/media/mcinnes.5c00a9dc829eb30992ec.webp",
+    "static/media/mockUpAbogados.webp": "/stairus-page/static/media/mockUpAbogados.08358744780352bab9d4.webp",
+    "static/media/mockUpStairus.webp": "/stairus-page/static/media/mockUpStairus.e96d5edbbed6b8e8aa1f.webp",
     "static/media/Michroma-Regular.ttf": "/stairus-page/static/media/Michroma-Regular.4c2e0f98a40551a60fa7.ttf",
-    "static/media/mockUpStairus.webp": "/stairus-page/static/media/mockUpStairus.5eea34494f91d75a6500.webp",
-    "static/media/RDVmockup.webp": "/stairus-page/static/media/RDVmockup.7f119636f007014fb2b2.webp",
     "static/media/cohete.webp": "/stairus-page/static/media/cohete.8368267d90a05bb18bb9.webp",
     "static/media/lastWave.webp": "/stairus-page/static/media/lastWave.dd3de68a2d72416d595d.webp",
+    "static/media/RDVmockup.webp": "/stairus-page/static/media/RDVmockup.a061354c3619f61985f7.webp",
     "static/media/firstWave.webp": "/stairus-page/static/media/firstWave.a488ffe183f1753e6e80.webp",
     "static/media/react.svg": "/stairus-page/static/media/react.bbc844f2606a41903bbde6f1719d2164.svg",
     "static/media/tiktok.svg": "/stairus-page/static/media/tiktok.fa732ca42dbf793082c80ca9d4bda671.svg",
@@ -26,11 +26,11 @@
     "static/media/git.svg": "/stairus-page/static/media/git.aeb3f4d71f395035a416d6e5a7afa54e.svg",
     "static/media/html5.svg": "/stairus-page/static/media/html5.97aa13a61de56202ea97a2169449187f.svg",
     "static/media/css.svg": "/stairus-page/static/media/css.93d0281b823eb4bd4df7e843db0938b5.svg",
-    "main.8ef98bf2.css.map": "/stairus-page/static/css/main.8ef98bf2.css.map",
-    "main.5946ef38.js.map": "/stairus-page/static/js/main.5946ef38.js.map"
+    "main.760ad20e.css.map": "/stairus-page/static/css/main.760ad20e.css.map",
+    "main.4e823008.js.map": "/stairus-page/static/js/main.4e823008.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ef98bf2.css",
-    "static/js/main.5946ef38.js"
+    "static/css/main.760ad20e.css",
+    "static/js/main.4e823008.js"
   ]
 }
