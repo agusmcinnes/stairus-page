@@ -38,9 +38,9 @@ body{
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    position: absolute;
+    position: fixed;
     z-index: 1000;
-    height: 20vh;
+    height: 18vh;
 }
 
 .header .logo{
@@ -52,12 +52,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% / 3);
-    top: 0;
-    height: 20vh;
     z-index: 10;
 }
 
@@ -223,7 +217,7 @@ body{
     color: var(--first-color);
     padding: 20px 40px;
     font-family: michroma;
-    border-radius: 3px;
+    border-radius: 12px;
     cursor: pointer;
     transition: background-color 0.5s;
     z-index: 100;
@@ -265,7 +259,7 @@ body{
         display: block;
         border: none;
         background: transparent;
-        color: var(--first-color);
+        color: #68b665;
         font-size: 3rem;
         cursor: pointer;
         text-align: center;
@@ -273,12 +267,11 @@ body{
 
     .close__button{
         display: block;
-        align-self: first baseline;
         margin-left: 10%;
         display: block;
         border: none;
         background: transparent;
-        color: var(--first-color);
+        color: #68b665;
         font-size: 3rem;
         cursor: pointer;
     }
@@ -293,7 +286,7 @@ body{
         width: 60%;
         z-index: 1000;
         flex-direction: column;
-        align-items: end;
+        align-items: start;
         gap: 40px;
         filter: drop-shadow(0 0 0 100vmax #00000068);
         padding-top: 2rem;
@@ -374,17 +367,21 @@ body{
 
 .cards__container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 70px;
 }
 
 .card{
-    width: clamp(300px, 80vw, 1300px);
+    width: clamp(300px, 70vw, 500px);
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #010C00;
-    height: clamp(25vh, 300px);
+    height: fit-content;
+    padding: 10px 20px 40px 20px;
     text-decoration: none;
-    border-radius: 7px;
+    border-radius: 12px;
     transition: filter 0.5s, scale 0.5s;
 }
 
@@ -406,9 +403,8 @@ body{
 
 
 .card__img{
-    min-width: clamp(0.5rem, 25%, 200rem);
-    max-height: 220px;
-    border-radius: 7px 0 0 7px;
+    width: clamp(300px, 50vw, 500px);
+    filter: drop-shadow(0px 0px 10px #ffffff45);
 }
 
 .card__info{
@@ -426,7 +422,7 @@ body{
 }
 
 .card__url{
-    font-size: clamp(0.5rem, 2vw, 3rem);
+    font-size: clamp(0.5rem, 1.7vw, 3rem);
     color: var(--first-color);
 }
 
@@ -535,7 +531,7 @@ body{
 }
 
 .caja__info{
-    font-size: 0.8rem;
+    font-size: clamp(0.7rem, 1dvw, 1.4rem);
     filter: drop-shadow(0 0 50px #ffffff91);
 }
 
@@ -548,7 +544,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 3px;
+    height: 1px;
     background: linear-gradient(to right, transparent, #26FF1F);
     animation: border_one 2s linear infinite;
 }
@@ -557,7 +553,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    width: 3px;
+    width: 1px;
     height: 100%;
     background: linear-gradient(to bottom, transparent, #26FF1F);
     animation: border_two 2s linear infinite;
@@ -569,7 +565,7 @@ body{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 3px;
+    height: 1px;
     background: linear-gradient(to left, transparent, #26FF1F);
     animation: border_three 2s linear infinite;
     animation-delay: 2s;
@@ -579,7 +575,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 3px;
+    width: 1px;
     height: 100%;
     background: linear-gradient(to top, transparent, #26FF1F);
     animation: border_four 2s linear infinite;
@@ -746,8 +742,9 @@ body{
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    background: linear-gradient(90deg, #000000 0%, #0f9b0f 100%);
+    background: linear-gradient(75deg, #000000 0%, #308a30 100%);
     padding-top: 20vh;
+
 }
 
 .form__wrap{
@@ -892,12 +889,11 @@ a.red{
 /* footer */
 
 .footer{
-    height: 14vh;
+    height: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #0a1309;
-    transform: translateY(-0.9%);
 }
 
 .footer img{
@@ -920,8 +916,8 @@ a.red{
     border: 1px solid var(--first-color);
     padding: 15px 30px;
     font-size: 0.7rem;
-    border-radius: 3px;
     transition: background-color 0.5s;
+    border-radius: 12px;
 }
 
 .footer__link:hover{
@@ -931,8 +927,8 @@ a.red{
 
 @media screen and (max-width: 40rem){
     .footer{
-        flex-wrap: wrap;
-        gap: 30px;
+        flex-direction: column;
+        gap: 40px;
         height: fit-content;
         padding: 40px;
     }

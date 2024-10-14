@@ -10,9 +10,6 @@ const Card = ({ mockUp, cardType, url, link }) => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('animacion__izquierda');
                 }
-                else{
-                    entry.target.classList.remove('animacion__izquierda');
-                }
             });
         }, { threshold: 0.1 }); // Ajusta el threshold según sea necesario
 
