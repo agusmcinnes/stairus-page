@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
-    scrollbar-color: #26FF1F #272727 ;
+    scrollbar-color: #74d171 #272727 ;
 }
 
 h1, h2, h3, h4, h5, p, div, img, option, select, body, a{
@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, p, div, img, option, select, body, a{
 body{
     font-family: michroma;
     --first-color: #26FF1F;
+    background-color: #1c2c23;
 }
 
 @font-face {
@@ -46,6 +47,7 @@ body{
 .header .logo{
     max-width: 200px;
     max-height: 100px;
+    filter: drop-shadow(0 0 3px #000);
 }
 
 .Nav__container {
@@ -113,7 +115,7 @@ body{
     color: #fff;
     border-radius: 12px;
     text-align: center;
-    
+    filter: drop-shadow(0 0 3px #000);
 }
 
 
@@ -259,10 +261,11 @@ body{
         display: block;
         border: none;
         background: transparent;
-        color: #68b665;
+        color: #7adf77;
         font-size: 3rem;
         cursor: pointer;
         text-align: center;
+        filter: drop-shadow(0 0 3px #000);
     }
 
     .close__button{
@@ -271,7 +274,7 @@ body{
         display: block;
         border: none;
         background: transparent;
-        color: #68b665;
+        color: #7adf77;
         font-size: 3rem;
         cursor: pointer;
     }
@@ -335,6 +338,10 @@ body{
         align-items: start;
         padding-left: 20px;
     }
+
+    .bandera{
+        width: 30px;
+    }
 }
 
 /* SECTION PORTFOLIO */
@@ -394,6 +401,7 @@ body{
 .animacion__izquierda {
     opacity: 1;
     transform: translateX(0%);
+    filter: drop-shadow(10px 10px 2px #3b3b3b8b);
 }
 
 .aparecer__izquierda:hover{
@@ -418,11 +426,11 @@ body{
 }
 
 .card__type{
-    font-size: clamp(0.6rem, 1.4vw, 3rem);
+    font-size: clamp(0.7rem, 1.4vw, 3rem);
 }
 
 .card__url{
-    font-size: clamp(0.5rem, 1.7vw, 3rem);
+    font-size: clamp(0.8rem, 1.7vw, 3rem);
     color: var(--first-color);
 }
 
@@ -537,6 +545,7 @@ body{
 
 .caja img{
     transform: translateY(30%);
+    width: 70px;
 }
 
 .border-top{

@@ -50,7 +50,7 @@ function App() {
         <div className='cards__container'>
         <Card mockUp={stairusMockUp} cardType={'Landing Page'} url={'STAIRUS.NET'} link={'#'}></Card>
         <Card mockUp={AbogadosMockUp} cardType={'Landing Page'} url={'ABOGADOSMDQ.COM'} link ={'https://abogadosmdq.com/'}></Card>
-        <Card mockUp={RDVMockUp} cardType={'Landing Page'} url={'RDV.COM'} link={'https://agusmcinnes.github.io/Rdv-Page/'}></Card>
+        <Card mockUp={RDVMockUp} cardType={'Landing Page'} url={'RDVUNIFORMES.COM'} link={'https://rdvuniformes.com/'}></Card>
         </div>
     </section>
     <section className='aboutUs' id='about__us'>

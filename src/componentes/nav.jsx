@@ -19,7 +19,7 @@ const Navbar = () => {
     };
 
     return (
-        <div>
+        <div className='header__item'>
             <button className='open__button' onClick={abrirMenu} title='menu'>
                 <FontAwesomeIcon icon={faBars} />
             </button>

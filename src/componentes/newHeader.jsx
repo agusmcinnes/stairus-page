@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import logo from '../imagenes/LOGO_STAIRUS.webp';
+import newLogo from '../imagenes/newLogoStairus.webp'
 import banderaEspaña from '../imagenes/Bandera_de_España.webp';
 import banderaEEUU from '../imagenes/bandera_EEUU.webp';
 import Navbar from './nav';
@@ -19,9 +20,12 @@ const NewHeader = () => {
 
   return (
     <header className='header'>
+      <a href="#" className='header__item'>
       <img src={logo} alt="Logo Stairus" className="logo" />
+      </a>
+
       <Navbar />
-      <div className='idiomas'>
+      <div className='idiomas header__item'>
         <div className="custom-select" onClick={() => setIsActive(!isActive)}>
           <div className="selected">
             <img src={selectedLang} alt="Selected Language" className="banderaSelected" /> {/* Bandera seleccionada */}
