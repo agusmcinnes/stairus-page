@@ -13,7 +13,7 @@ import Cajas from './componentes/Cajas.jsx';
 import cohete from './imagenes/cohete.webp'
 import firstWave from './imagenes/firstWave.webp'
 import stairusMockUp from './imagenes/mockUpStairus.webp'
-import AbogadosMockUp from './imagenes/mockUpAbogados.webp'
+import AbogadosMockUp from './imagenes/mockUpAbogadosMDQnew.webp'
 import RDVMockUp from './imagenes/RDVmockup.webp'
 import lastWave from './imagenes/lastWave.webp'
 

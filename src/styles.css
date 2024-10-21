@@ -271,13 +271,13 @@ body{
 
     .close__button{
         display: block;
-        margin-left: 10%;
         display: block;
         border: none;
         background: transparent;
         color: #7adf77;
         font-size: 3rem;
         cursor: pointer;
+        margin: 30px;
     }
 
     .Nav{
@@ -300,7 +300,6 @@ body{
         transform: translateX(100%);
         transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, visibility 0.5s;
         margin: 0;
-        text-align: end;
     }
 
     .Nav__item{
@@ -337,7 +336,6 @@ body{
         gap: 70px;
         padding-top: 200px;
         align-items: start;
-        padding-left: 20px;
     }
 
     .bandera{
@@ -394,7 +392,7 @@ body{
 }
 
 .aparecer__izquierda {
-    opacity: 0.3;
+    opacity: 0;
     transform: translateX(-100%);
     transition: all 1s;
 }
@@ -430,9 +428,12 @@ body{
     font-size: clamp(0.7rem, 1.4vw, 3rem);
 }
 
-.card__url{
-    font-size: clamp(0.8rem, 1.7vw, 3rem);
+.icono{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: var(--first-color);
+    font-size: clamp(0.8rem, 1.7vw, 1.5rem);
 }
 
 @media screen and (max-width: 900px) {

@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faUpRightFromSquare} from '@fortawesome/free-solid-svg-icons';
 
 const Card = ({ mockUp, cardType, url, link }) => {
     const type = cardType;
@@ -28,7 +30,11 @@ const Card = ({ mockUp, cardType, url, link }) => {
                 <img src={mockUp} alt="" className='card__img' />
                 <div className='card__info'>
                     <h3 className='card__type'>{type}</h3>
+                    <div className='icono'>
                     <h4 className='card__url'>{url}</h4>
+                    <FontAwesomeIcon icon={faUpRightFromSquare} />
+                    </div>
+
                 </div>
             </a>
         </div>
