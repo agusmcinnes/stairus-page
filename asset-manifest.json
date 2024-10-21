@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stairus-page/static/css/main.c7be204c.css",
-    "main.js": "/stairus-page/static/js/main.c4d7dff7.js",
+    "main.css": "/stairus-page/static/css/main.372ae703.css",
+    "main.js": "/stairus-page/static/js/main.b08b4ee5.js",
     "static/media/LOGO_STAIRUS.webp": "/stairus-page/static/media/LOGO_STAIRUS.49d59e196533dd3c9da1.webp",
     "static/media/newLogoStairus.webp": "/stairus-page/static/media/newLogoStairus.485c6beedb003ab68645.webp",
     "static/media/contacto_img.webp": "/stairus-page/static/media/contacto_img.a0232db5b3a259003f54.webp",
@@ -27,11 +27,11 @@
     "static/media/git.svg": "/stairus-page/static/media/git.aeb3f4d71f395035a416d6e5a7afa54e.svg",
     "static/media/html5.svg": "/stairus-page/static/media/html5.97aa13a61de56202ea97a2169449187f.svg",
     "static/media/css.svg": "/stairus-page/static/media/css.93d0281b823eb4bd4df7e843db0938b5.svg",
-    "main.c7be204c.css.map": "/stairus-page/static/css/main.c7be204c.css.map",
-    "main.c4d7dff7.js.map": "/stairus-page/static/js/main.c4d7dff7.js.map"
+    "main.372ae703.css.map": "/stairus-page/static/css/main.372ae703.css.map",
+    "main.b08b4ee5.js.map": "/stairus-page/static/js/main.b08b4ee5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7be204c.css",
-    "static/js/main.c4d7dff7.js"
+    "static/css/main.372ae703.css",
+    "static/js/main.b08b4ee5.js"
   ]
 }
