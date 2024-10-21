@@ -277,7 +277,7 @@ body{
         color: #7adf77;
         font-size: 3rem;
         cursor: pointer;
-        margin: 30px;
+        padding-left: 20px;
     }
 
     .Nav{
@@ -333,6 +333,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: start;
+        align-items: start;
         gap: 70px;
         padding-top: 200px;
         align-items: start;
@@ -660,6 +661,7 @@ body{
 .mcinnes__card-name{
     font-size: clamp(0.9rem, 4vw, 3rem);
     font-weight: 100;
+    text-align: center;
 }
 
 .mcinnes__card-developer{

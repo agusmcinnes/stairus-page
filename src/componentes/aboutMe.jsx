@@ -40,7 +40,7 @@ const AboutMe = () => {
     <div className='aboutme__container'>
         <h2 className='aboutme__title'>{t('aboutMe.title')}</h2>
         <div className='mcinnes__card aparecer__animacion'>
-            <h2 className='mcinnes__card-name text' >AGUSTIN MC INNES</h2>
+            <h2 className='mcinnes__card-name text' >AGUSTIN <br /> MC INNES ALEMANY</h2>
             <h3 className='mcinnes__card-developer text'>Fronted Developer</h3>
             <p className='mcinnes__card-text text'>{t('aboutMe.text-1')}</p>
             <p className='mcinnes__card-text text'>{t('aboutMe.text-2')}</p>
